@@ -14,18 +14,31 @@
   background-color: #e2e2e2;
   padding: 10px;
 }
-.box {
+form {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
   height: 500px;
   width: 500px;
-  border-radius: 30px;  
+  padding: 20px;
+  border-radius: 30px;
   background-color: #fff;
 }
-form {
+.user-input-box {
+  height: 70%;
   width: 100%;
-  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.box-title {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px 0;
+  /* margin-bottom: 30px; */
 }
 
 input {
@@ -36,12 +49,13 @@ input {
   border-radius: 10px;
   padding: 0 10px;
   outline: none;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 input[type=submit] {
   background-color: royalblue;
   color: #fff;
   border: none;
+  width: 50%;
 }
 input[type=submit]:focus {
   border: none;

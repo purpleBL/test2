@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  border: solid 2px red;
+}
+form {
+  width: 500px;
+  padding: 0 10px;
+}
+
+.tel {
+  height: 50px;
+  width: 100%;
+  appearance: none;
+  border: solid 2px red;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+}
+
+.tel::placeholder {
+  
+}

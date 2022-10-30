@@ -8,11 +8,12 @@
 
 .container {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   height: 100vh;
   background-color: #e2e2e2;
   padding: 10px;
+  overflow-y: scroll;
 }
 form {
   display: flex;
@@ -55,7 +56,6 @@ input[type=submit] {
   background-color: royalblue;
   color: #fff;
   border: none;
-  width: 50%;
 }
 input[type=submit]:focus {
   border: none;

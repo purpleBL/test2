@@ -12,6 +12,7 @@
   justify-content: center;
   height: 100vh;
   background-color: #e2e2e2;
+  padding: 10px;
 }
 .box {
   display: flex;
@@ -19,12 +20,12 @@
   justify-content: center;
   height: 500px;
   width: 500px;
-  border-radius: 50px;  
+  border-radius: 30px;  
   background-color: #fff;
 }
 form {
   width: 100%;
-  padding: 0 20px;
+  padding: 0 40px;
 }
 
 input {

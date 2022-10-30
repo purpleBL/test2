@@ -8,12 +8,15 @@
     <title>Test</title>
   </head>
   <body>
-    <div class="box">
-      <form action="#">
-        <input type="tel" class="tel" maxlength="18" placeholder="Введите номер">
-        <input type="tel" class="tel" maxlength="18" placeholder="Введите номер">
-        <input type="tel" class="tel" maxlength="18" placeholder="Введите номер">
-      </form>
+    <div class="container">
+      <div class="box">
+        <form action="#">
+          <input type="text" class="user-name" placeholder="Введите имя" required>
+          <input type="tel" class="user-tel" maxlength="18" placeholder="Введите номер" required>
+          <input type="email" class="user-email" placeholder="Введите email" required>
+          <input type="submit" value="Отправить">
+        </form>
+      </div>
     </div>
   </body>
 </html>

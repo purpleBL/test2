@@ -9,14 +9,15 @@
   </head>
   <body>
     <div class="container">
-      <div class="box">
         <form action="#">
-          <input type="text" class="user-name" placeholder="Введите имя" required>
-          <input type="tel" class="user-tel" maxlength="18" placeholder="Введите номер" required>
-          <input type="email" class="user-email" placeholder="Введите email" required>
+          <div class="user-input-box">
+            <label class="box-title">Форма отправки</label>
+            <input type="text" class="user-name" placeholder="Введите имя" required>
+            <input type="tel" class="user-tel" maxlength="18" placeholder="Введите номер" required>
+            <input type="email" class="user-email" placeholder="Введите email" required>
+          </div>
           <input type="submit" value="Отправить">
         </form>
-      </div>
     </div>
   </body>
 </html>
